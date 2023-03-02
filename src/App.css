@@ -3,8 +3,20 @@
 }
 
 .App-header{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   font-family: "ohno-blazeface", sans-serif;
   font-weight: 100;
   font-style: normal;
-  font-size: 30px;
+  font-size: 50px;
+  margin-top: -47px;
+  margin-left: 1rem;
+}
+
+.description{
+  font-family: "gelica", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 15px;
 }

@@ -7,8 +7,10 @@ function App() {
         <p>
          SARADA CRAFT
         </p>
-     
       </header>
+      <div className="description">
+      Dedicated to making handcrafted old world soaps, salves, scrubs, and herbal supplements
+      </div>
     </div>
   );
 }
