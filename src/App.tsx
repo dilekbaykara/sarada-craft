@@ -1,4 +1,5 @@
 import './App.css';
+import pic6 from "/Users/dilekbaykara/repos/sarada-craft/src/photos/pic-6.jpeg";
 
 function App() {
   return (
@@ -12,7 +13,10 @@ function App() {
       <div className="description">
       Dedicated to making handcrafted old world soaps, salves, scrubs, and herbal supplements
       </div>
+      <div className='photo-carousel'></div>
+      <img src={pic6} alt="Image" />
     </div>
+
   );
 }
 
